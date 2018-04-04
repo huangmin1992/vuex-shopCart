@@ -1,0 +1,36 @@
+.shop-list{
+		color: #555;
+		text-align: center;
+		table{
+			table-layout: fixed;
+			width: 100%;
+			border-collapse: collapse;
+			border-spacing: none;
+			tr,td{
+				height: 70px;
+				border-bottom: 1px solid #ccc;
+				cursor:pointer;
+				transition: 0.3s;
+			}
+			tr:not(.shop-listtitle):hover{
+				background-color: #eee;
+			}
+			.shop-listtitle{
+				font-size: 18px;
+				font-weight: 700;
+			}
+			button{
+				outline: none;
+				border: 1px solid #ccc;
+				cursor: pointer;
+				color: #fff;
+				background-color: #ff9800;
+				padding: 10px 20px;
+				font-size: 18px;
+				transition: 0.3s;
+			}
+			button:hover{
+				background-color: #e91e63;
+			}
+		}
+	}
